@@ -24,4 +24,4 @@ The emulation framework is programmed by Chiu Chan.
 The LoRa emulator is programmed by Bassel Al Homssi.
 The satellite to ground pathLoss function is programmed by Akram Al-Hourani.
 ==================License==================
-Electronic & Telecommunication department, RMIT University, hereby disclaims all copyright interest in the program "mmWave measurement testbed" written by Chiu Chan, Ferdi Kurnia, Akram Hourani.
+Electronic & Telecommunication department, RMIT University, hereby disclaims all copyright interest in the program "Performance-Evaluation-of-Random-Access-Methods-for-IoT-over-Satellite" written by Chiu Chun Chan, Bassel Al Homssi, Akram Al-Hourani.

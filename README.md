@@ -1,6 +1,6 @@
 # Performance-Evaluation-of-Random-Access-Methods-for-IoT-over-Satellite
 
-Please cite the code which is part of our accepted publication:
+Please cite the code which is part of our publication:
 
 Chan, C.C.; Al Homssi, B.; Al-Hourani, A. Performance Evaluation of Random Access Methods for IoT-over-Satellite. Remote Sens. 2022, 14, 4232. 
 

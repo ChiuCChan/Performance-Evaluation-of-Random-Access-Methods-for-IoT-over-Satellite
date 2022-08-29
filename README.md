@@ -30,11 +30,11 @@ Packet error rate: PER
 
 # Contribute
 
-The emulation framework is programmed by Chiu Chan.
+The emulation framework is programmed by Chiu Chun Chan.
 
 The LoRa emulator is programmed by Bassel Al Homssi.
 
-The satellite to ground pathLoss function is programmed by Akram Al-Hourani.
+The Satellite-to-Ground pathloss function is programmed by Akram Al-Hourani.
 
 # License
 

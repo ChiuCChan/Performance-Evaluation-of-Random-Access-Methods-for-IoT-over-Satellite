@@ -16,16 +16,16 @@ https://www.mathworks.com/matlabcentral/fileexchange/81166-loramatlab
 1. Open the "SatelliteOnDutyCalculation.m" to obtain the on-duty table of satellites with respect to the local observer.
 
 2. Users can change the constellation parameter {N, inc, P, F, h, WalkerDelta in [True, False]}	
-   Users can also change the satellite antenna beamwidth (beamwidth) to alter the coverage of satellites to limit the number of avaliable satellites.
+3. Users can also change the satellite antenna beamwidth (beamwidth) to alter the coverage of satellites to limit the number of avaliable satellites.
    
-3. Open "TheEmulator_Case#.m" to emulate the LoRa-over-Satellite communication. 
+4. Open "TheEmulator_Case#.m" to emulate the LoRa-over-Satellite communication. 
 	Case 1: Random Access
 	Case 2: Scheduled Access (when there is any avaliable satellite links)
 	Case 3: Scheduled Access with Packet Reptition.
  	Case 4: Round-Robin Scheduled Access (Interference-free)
    User can change the SF, 
    
-4. The NB-IoT-over-Satellite emulation script is also provided. It requires the MATLAB LTE toolbox to be pre-installed. 
+5. The NB-IoT-over-Satellite emulation script is also provided. It requires the MATLAB LTE toolbox to be pre-installed. 
 
 # Output
 

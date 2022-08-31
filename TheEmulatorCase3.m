@@ -38,7 +38,7 @@ for pwrcnt=1:numel(Power)
         %% pick up one device (Uniform Distribution)
         while numel(Servingcell) == 0;
             ChosenObserver = randi(Nt,1);      % choose one of the users in the dataset
-            ObserverTimeline = Dutying(:,ChosenObserver,:);         % the time period when the observer being serve by any satellites
+            ObserverTimeline = OnDuty(:,ChosenObserver,:);         % the time period when the observer being serve by any satellites
             [Servingcell,StartTxtime]=find(ObserverTimeline);       % finding the servingcell and its corresponding serving time(s)
         end
         Serveidx=randi(numel(Servingcell),1);                       % Randomly pick up one Serving cell and time

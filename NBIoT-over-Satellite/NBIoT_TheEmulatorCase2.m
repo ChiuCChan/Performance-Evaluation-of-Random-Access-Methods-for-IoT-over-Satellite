@@ -130,7 +130,7 @@ for cnt = 1:itr
     %% pick up one device (Uniform Distribution)
     while numel(Servingcell) == 0
         ChosenObserver = randi(500,1);                          % one of the users in the script
-        ObserverTimeline = Dutying(:,ChosenObserver,:);         %the time when the observer being serve by any satellites
+        ObserverTimeline = OnDuty(:,ChosenObserver,:);         %the time when the observer being serve by any satellites
         [Servingcell,StartTxtime]=find(ObserverTimeline);       % give me the full table of
     end
     Serveidx=randi(numel(Servingcell),1);                       % start at random time within the accesible period

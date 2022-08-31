@@ -15,8 +15,8 @@ https://www.mathworks.com/matlabcentral/fileexchange/81166-loramatlab
 
 1. Open the "SatelliteOnDutyCalculation.m" to obtain the on-duty table of satellites with respect to the local observer.
 
-2. User can change the constellation parameter {N, inc, P, F, h, WalkerDelta in [True, False]}	
-   User can also change the satellite antenna beamwidth (beamwidth) to alter the coverage of satellites and therefore to limit the number of avaliable satellites.
+2. Users can change the constellation parameter {N, inc, P, F, h, WalkerDelta in [True, False]}	
+   Users can also change the satellite antenna beamwidth (beamwidth) to alter the coverage of satellites to limit the number of avaliable satellites.
    
 3. Open "TheEmulator_Case#.m" to emulate the LoRa-over-Satellite communication. 
 	Case 1: Random Access
